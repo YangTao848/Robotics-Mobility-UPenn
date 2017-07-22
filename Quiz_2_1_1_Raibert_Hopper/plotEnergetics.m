@@ -20,5 +20,5 @@ function [] = plotEnergetics(t,X, params, bookkeeping)
     plot(t,Vspring);
     plot(t,K+V);
     legend('K','V','Vgrav','Vspring','K+V');
-%     legend('K','V','K+V');
+
 end
